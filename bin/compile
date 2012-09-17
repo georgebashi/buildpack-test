@@ -12,6 +12,6 @@ function indent() {
   esac
 }
 
-cd $1
+cd "$1"
 echo "-----> Running bin/test"
 bin/test | indent
